@@ -45,6 +45,12 @@ ddev import-db --file=./db/pimcore.sql.gz
 ddev exec bin/console pimcore:deployment:classes-rebuild --create-classes -f
 ```
 
+### Site Ready!
+
+```shell
+ddev launch /admin
+```
+
 ## URLs
 
 ### Sviluppo
