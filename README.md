@@ -38,7 +38,7 @@ doctrine:
 then run the following commands:
 
 ```shell
-ddev import-db --src=./db/pimcore.sql.gz
+ddev import-db --file=./db/pimcore.sql.gz
 ```
 
 ```shell
