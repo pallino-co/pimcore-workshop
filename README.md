@@ -23,6 +23,10 @@ ddev composer install
 ddev import-db --src=./db/pimcore.sql.gz
 ```
 
+```shell
+ddev exec bin/console pimcore:deployment:classes-rebuild --create-classes
+```
+
 ## URLs
 
 ### Sviluppo
