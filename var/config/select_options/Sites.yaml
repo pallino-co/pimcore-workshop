@@ -1,0 +1,26 @@
+pimcore:
+    objects:
+        select_options:
+            definitions:
+                Sites:
+                    id: Sites
+                    group: ''
+                    useTraits: ''
+                    implementsInterfaces: ''
+                    selectOptions:
+                        -
+                            value: MI
+                            label: Milano
+                            name: Milano
+                        -
+                            value: PD
+                            label: Padova
+                            name: Padova
+                        -
+                            value: ROMA
+                            label: Roma
+                            name: Roma
+                        -
+                            value: TO
+                            label: Torino
+                            name: Torino
